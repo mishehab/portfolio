@@ -8,7 +8,6 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
-
 function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
@@ -24,7 +23,7 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
-            I am {' '}
+            I am{" "}
             <span className=" text-pink-500">{personalData.name}</span>
             {` A Professional `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
@@ -76,7 +75,6 @@ function HeroSection() {
               <MdDownload size={16} />
             </Link>
           </div>
-
         </div>
         <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] lg:mt-16">
           <div className="flex flex-row">
@@ -98,41 +96,41 @@ function HeroSection() {
                 <span className="text-gray-400">{`{`}</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">'name'</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">&apos;name&apos;</span>
                 <span className="text-gray-400">: </span>
-                <span className="text-amber-300">'Mazharul Islam',</span>
+                <span className="text-amber-300">&apos;Mazharul Islam&apos;,</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">'skills'</span>
+                <span className=" text-white">&apos;skills&apos;</span>
                 <span className="text-gray-400">: </span>
                 <span className="text-gray-400">[</span>
-                <span className="text-amber-300">'Python'</span>
+                <span className="text-amber-300">&apos;Python&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'TensorFlow'</span>
+                <span className="text-amber-300">&apos;TensorFlow&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'Keras'</span>
+                <span className="text-amber-300">&apos;Keras&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'OpenCV'</span>
+                <span className="text-amber-300">&apos;OpenCV&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'n8n'</span>
+                <span className="text-amber-300">&apos;n8n&apos;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">'scikit-learn'</span>
+                <span className="text-amber-300">&apos;scikit-learn&apos;</span>
                 <span className="text-gray-400">]</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">'hardWorker'</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">&apos;hardWorker&apos;</span>
                 <span className="text-gray-400">: </span>
                 <span className="text-green-400">True</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">'quickLearner'</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">&apos;quickLearner&apos;</span>
                 <span className="text-gray-400">: </span>
                 <span className="text-green-400">True</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">'problemSolver'</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">&apos;problemSolver&apos;</span>
                 <span className="text-gray-400">: </span>
                 <span className="text-green-400">True</span>
               </div>
